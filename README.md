@@ -1,6 +1,7 @@
 # MultiSelectTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
+![alt text](https://raw.githubusercontent.com/abdullahcel1k/angular-multiselect/master/src/assets/angular-multiselect.gif)
 
 ## Development server
 
