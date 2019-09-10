@@ -1,0 +1,18 @@
+<dl class="dropdown">
+  <dt>
+    <a>
+      <span class="hida">Select Multiple</span>
+      <p class="multiSel"></p>
+    </a>
+  </dt>
+  <dd>
+    <div class="mutliSelect">
+      <ul>
+        <li *ngFor="let item of items">
+          <input type="checkbox" [value]="item.id" (click)="getSelectedValues($event)"
+            data-title="{{item.title}}" />{{item.title}}
+        </li>
+      </ul>
+    </div>
+  </dd>
+</dl>
